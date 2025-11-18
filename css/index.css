@@ -235,11 +235,13 @@ header > .collapsible-header{
 /* Coffee card image hover effect */
 .coffee-card-image {
     transition: transform 0.3s ease;
-    transform: scale(2);
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
 }
 
 .coffee-card-image:hover {
-    transform: scale(2.2);
+    transform: scale(1.1);
 }
 
 /* Modal Styles */
