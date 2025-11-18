@@ -234,6 +234,7 @@ header > .collapsible-header{
 
 /* Coffee card image hover effect */
 .coffee-card-image {
+    display: block;
     transition: transform 0.3s ease;
     width: 100% !important;
     height: 100% !important;
