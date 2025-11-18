@@ -18,6 +18,11 @@ html {
     font-family: "Ubuntu", sans-serif;
 }
 
+.announcement-banner {
+    background-color: #7e22ce;
+    font-size: 14px;
+}
+
 header{
     /* background-color: #fff;
     color: #000; */
@@ -451,11 +456,12 @@ header > .collapsible-header{
     header .collapsible-header {
         position: fixed;
         right: 0px;
+        top: 40px;
         flex-direction: column;
         opacity: 0;
-        height: 100vh;
-        min-height: 100vh;
-        height: 100dvh;
+        height: calc(100vh - 40px);
+        min-height: calc(100vh - 40px);
+        height: calc(100dvh - 40px);
         width: 0vw;
         justify-content: space-between;
         padding: 5px;
