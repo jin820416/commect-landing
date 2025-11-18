@@ -1,5 +1,6 @@
 # Environment variables
-config.js
+# Note: config.js contains public Supabase anon key which is safe to commit
+# It's protected by Row Level Security (RLS) policies on the database
 
 # Dependencies
 node_modules/

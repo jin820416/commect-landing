@@ -297,6 +297,11 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             try {
+                // Check if Supabase is initialized
+                if (!supabase) {
+                    throw new Error('Supabase client not initialized')
+                }
+
                 // Insert data into Supabase
                 const { data, error } = await supabase
                     .from('pre_launch_signups')
