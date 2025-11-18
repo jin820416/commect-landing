@@ -223,6 +223,12 @@ header > .collapsible-header{
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
 
+@media (max-width: 768px) {
+    .location-pin {
+        display: none;
+    }
+}
+
 /* Cursor blinking animation */
 .cursor-blink {
     animation: blink 0.5s step-end infinite;
